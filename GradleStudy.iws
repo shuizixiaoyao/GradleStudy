@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ee67ad-9ace-4b39-a34b-02bb317802e4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/GradleStudy.ipr" afterPath="$PROJECT_DIR$/GradleStudy.ipr" />
       <change beforePath="$PROJECT_DIR$/GradleStudy.iws" afterPath="$PROJECT_DIR$/GradleStudy.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -415,6 +413,14 @@
       <option name="presentableId" value="Default" />
       <updated>1561164658788</updated>
     </task>
+    <task id="LOCAL-00001" summary="添加README.md">
+      <created>1561169275058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561169275058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -460,6 +466,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <MESSAGE value="添加README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加README.md" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
