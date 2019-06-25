@@ -17,6 +17,14 @@ public class Chance {
         return new Chance(1 - fraction);
     }
 
+    public Chance and(Chance chanceAnother) {
+        return new Chance(fraction * chanceAnother.getFraction());
+    }
+
+    public Chance or(Chance chanceAnother) {
+        return new Chance(fraction + chanceAnother.getFraction() - fraction * chanceAnother.getFraction());
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -28,13 +36,5 @@ public class Chance {
     @Override
     public int hashCode() {
         return Objects.hash(fraction);
-    }
-
-    public Chance and(Chance chanceAnother) {
-        return new Chance(fraction * chanceAnother.getFraction());
-    }
-
-    public Chance or(Chance chanceAnother) {
-        return new Chance(fraction + chanceAnother.getFraction() - fraction * chanceAnother.getFraction());
     }
 }
